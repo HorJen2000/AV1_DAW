@@ -1,0 +1,3 @@
+id;pergunta;resposta
+1;O que é liderança?;Capacidade de orientar uma equipe
+2;O que é planejamento?;Processo de definir objetivos e ações

@@ -10,6 +10,9 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $arquivo = fopen("perguntas.txt", "a");
 
+        
+    $arquivo = fopen("perguntas.txt", "a");
+
     $novaLinha = $id . ";" .
                 $pergunta . ";" . 
                 $resposta1 . ";" . 
@@ -30,26 +33,34 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nova Pergunta</title>
+    <title>Criar Pergunta</title>
 </head>
 <body>
 
-    <h1>Insira a nova pergunta: </h1>
 
     <form method="POST">
+
         ID:
         <input type="number" name="id"><br>
+
         Pergunta:
         <input type="text" name="pergunta"><br>
+
         Resposta 1:
         <input type="text" name="resposta1"><br>
+
         Resposta 2:
         <input type="text" name="resposta2"><br>
+
         Resposta 3:
         <input type="text" name="resposta3"><br>
+
         Resposta Correta:
+        
         <input type="number" name="correta" min="1" max="3"><br>
+        
         <input type="submit" value="Criar Pergunta">
+
     </form>
 
 

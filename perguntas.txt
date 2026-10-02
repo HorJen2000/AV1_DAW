@@ -1,0 +1,7 @@
+id;pergunta;resposta1;resposta2;resposta3;correta
+1;Qual é a capital da França?;Paris;Roma;Lisboa;1
+2;Qual o diminutivo de sapo?;Sapeto;Sapinho;Sapão;2
+3;Quanto é 25 + 47?;66;72;62;2
+4;Qual é o menor país do mundo?;Andorra;Lichtenstein;Vaticano;3
+5;Quanto é 5000kg em litros?;5 litros;500 litros;5000 litros;3
+1;Qual é a capital da França?;Paris;Roma;Lisboa;1
